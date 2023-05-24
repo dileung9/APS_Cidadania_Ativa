@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: #fcdbdbdb;
+            align-items: center;
+            justify-content: center;
+            
+        }
+        main{
+            padding: 250px;
+        }
+
+        .obrigado_page{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        
+        button a{
+            text-decoration: none;
+            color: inherit;
+        }
+
+        button {
+            margin-top: 10px;
+            text-decoration: none;
+            color: inherit;
+            color: #ffcbdb;
+            height: 35px;
+            width: 50px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            background-color: #6d5d5d;
+            border-radius: 5px; 
+            transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-position 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+           }
+  
+        button:hover{
+        background-color: #ffcbdb;
+        color: #6d5d5d;
+        transform: scale(1.1);
+        background-position: 500px;
+
+        }
+        
+    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Obrigado por sua mensagem</title>
+</head>
+<body>
+     <!-- Header -->
+     <div class="topo">
+        <header class="header">
+            <h1 class="container-logo"><a href="index.html" id="home">Cidadania Ativa</a></h1>
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="solucoes.html">Soluções</a>
+                        <a href="projetos.html">Projetos</a>
+                        <a href="news.html">Notícias</a>
+                        <a href="aboutus.html">Sobre nós</a>
+                        <a href="contact.html">Contato</a>
+                    </div>
+                </div>
+        </header>
+    </div>
+
+    <!-- Conteudo -->
+    <div class="conteudo">
+        <main class="main">
+        <div class="obrigado_page">
+            <h2>Obrigado por sua mensagem!</h2>
+            <button type="submit"><a href="index.html">Menu</a>
+            </button>
+        </div>
+        </main>   
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="wrapper">
+            <div class="footer-box">
+                <div class="company-footer">
+                    <h2>Cidadania Ativa</h2>
+                    <p>O local onde a sua participação salva o meio ambiente.</p>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <div class="articles-footer">
+                    <h2>Veja os conteúdos do site</h2>
+                    <ul class="footer-list footer-article-list">
+                        <li><a href="solucoes.html">Soluções</a></li>
+                        <li><a href="projetos.html">Projetos</a></li>
+                        <li><a href="news.html">Noticias</a></li>
+                        <li><a href="aboutus.html">Sobre nós</a></li>
+                        <li><a href="contact.html">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-box">
+                <div class="social-media">
+                    <h2>Verifique nossas redes sociais</h2>
+                    <a href="https://www.instagram.com/_cidadania_ativa_/"><img class="instagramlogo" src="assets/img/Instagram true.png" alt="instagram"></a>
+                    <a href="https://youtube.com/@CidadaniaAtiva"><img class="youtubelogo" src="assets/img/Youtube true.png" alt="youtube"></a>
+               </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="wrapper">
+                <p>Cidadania Ativa - 2023</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
